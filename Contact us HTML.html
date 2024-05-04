@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arellano University Contact Page</title>
+    <link rel="stylesheet" href="Contact us CSS.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Additional CSS styles */
+        /* Center the contact section content */
+        .contact-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75vh; /* Ensure the content is vertically centered */
+            border: 2px solid #005daa; /* Add border around the contact section */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            padding: 20px; /* Add padding inside the border */
+        }
+
+        /* Style the contact section title */
+        .contact-title {
+            text-align: center;
+            margin-bottom: 20px; /* Add some spacing below the title */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="C:\Users\Guiller_Olario2024\Downloads\Arellano_University_New_Logo.png" alt="Arellano University Logo">
+                </div>
+                <div class="university-name">
+                    <h1>Arellano University</h1>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="file:///C:/Users/Guiller_Olario2024/OneDrive/Visual%20Studio%20Code/index.html">Home</a></li>
+                    <li><a href="file:///C:/Users/Guiller_Olario2024/OneDrive/Visual%20Studio%20Code/News%20HTML.html">News</a></li> <!-- Make sure the News button is not active -->
+                    <li><a href="file:///C:/Users/Guiller_Olario2024/OneDrive/Visual%20Studio%20Code/Program%20HTML.html">Programs</a></li>
+                    <li><a href="file:///C:/Users/Guiller_Olario2024/OneDrive/Visual%20Studio%20Code/Contact%20us%20HTML.html" class="active">Contact Us</a></li> <!-- Add the active class here -->
+                    <li><a href="file:///C:/Users/Guiller_Olario2024/OneDrive/Visual%20Studio%20Code/About%20us%20HTML.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contact section -->
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2 class="contact-title">Contact Us</h2>
+                <p>Have questions? We are here to help!</p>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Contact Details</h3>
+                        <p>Arellano University</p>
+                        <p>3058 Taft Avenue, Pasay City</p>
+                        <p>Phone: 8-804-09-74 / 8-832-5525</p>
+                        <p>Email: info@arellano.edu.ph</p>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <textarea id="message" placeholder="Type your message here..." rows="8"></textarea>
+                        <button onclick="alert('Message sent!')">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Arellano University. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
